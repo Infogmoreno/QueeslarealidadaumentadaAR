@@ -32,10 +32,10 @@ Video_0.pause();
 button.addEventListener("click", function(evt){
 console.log("button clicked")
 if(Video_0.muted==true){
-button.innerHTML="No Audio";
+button.innerHTML="Sin Audio";
 Video_0.muted=false;
 }else{
-button.innerHTML="Audio";
+button.innerHTML="Con Audio";
 Video_0.muted=true;
 }
 });
@@ -104,7 +104,7 @@ if (markerFound == 1) {
 
         <div style='position: absolute; bottom: 10px; right: 30px; width:100%; text-align: center; z-index: 1;'>      
             <button id="mutebutton" style='position: absolute; bottom: 10px'>
-              Audio
+              Sin Audio
             </button>
         </div>
 
